@@ -1,0 +1,13 @@
+{
+  "name": "playwright-bstackdemo",
+  "version": "1.0.0",
+  "description": "Playwright tests running locally and on BrowserStack",
+  "scripts": {
+    "test:local": "npx playwright test",
+    "test:bstack": "npx browserstack-node-sdk playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.48.2",
+    "browserstack-node-sdk": "^1.17.0"
+  }
+}

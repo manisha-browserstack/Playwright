@@ -1,0 +1,28 @@
+userName: manishasardar_HBC0EW
+accessKey: 9EPg5LWmsfP6VNDNXBjp
+testObservability: true
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
+  - os: OS X
+    osVersion: Ventura
+    browserName: Safari
+    browserVersion: latest
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12
+    browserName: Chrome
+    deviceOrientation: portrait
+parallels: 3
+projectName: Playwright-BStackDemo
+buildName: playwright-bstackdemo-fixed
+testContextOptions:
+  skipSessionStatus: false
+  skipSessionName: false
+buildIdentifier: '#8'
+browserstackLocal: false
+logDir: /Users/manishasardar/Downloads/playwright-bstackdemo-fixed (1)/log
+browserStackLocalOptions:
+  skipBinaryInitialisation: false
+proxySettings: {}
