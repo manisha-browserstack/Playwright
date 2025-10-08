@@ -1,5 +1,5 @@
-userName: manishasardar_HBC0EW
-accessKey: 9EPg5LWmsfP6VNDNXBjp
+userName: browserstack_username
+accessKey: browserstack_key
 testObservability: true
 platforms:
   - os: Windows
